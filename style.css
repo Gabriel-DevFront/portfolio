@@ -6,8 +6,8 @@
 }
 
 body {
+    /* height: 100vh; */
     box-sizing: border-box;
-    height: 100vh;
     background-color: black;
     color: white;
 
@@ -18,7 +18,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10% 10%;
+    padding: 8% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -81,4 +81,14 @@ body {
 .imagem {
     display: flex;
     align-self: flex-start;
+}
+
+.rodape {
+    text-align: center;
+    padding: 24px;
+    color: black;
+    background-color: #db9c1e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
