@@ -58,9 +58,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    <<<<<<< HEAD gap: 82px;
-    =======gap: 60px;
-    >>>>>>>42ffb2d9706e4f8965973d8df5207dc43e14681f
+    gap: 82px;
+    gap: 60px;
 }
 
 .apresentacao__conteudo {
@@ -156,26 +155,24 @@ body {
     }
 
     .apresentacao {
-        <<<<<<< HEAD flex-direction: column-reverse;
+        flex-direction: column-reverse;
         padding: 5%;
     }
 
     .apresentacao__conteudo {
         width: auto;
-        =======padding: 1% 0% 5%;
+        padding: 1% 0% 5%;
         flex-direction: column-reverse;
         gap: 10px;
-        >>>>>>>42ffb2d9706e4f8965973d8df5207dc43e14681f
     }
 
     .apresentaca__imagem {
         align-self: center;
-        <<<<<<< HEAD width: 60%;
+        width: 60%;
     }
 
-    =======width: 45%;
 }
-}
+
 
 /* Responsividade para celular e tablets */
 
@@ -208,5 +205,4 @@ body {
         font-size: 1rem;
     }
 
-    >>>>>>>42ffb2d9706e4f8965973d8df5207dc43e14681f
 }
