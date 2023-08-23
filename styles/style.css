@@ -161,9 +161,8 @@ body {
 
     .apresentacao__conteudo {
         width: auto;
-        padding: 1% 0% 5%;
-        flex-direction: column-reverse;
-        gap: 10px;
+        padding: 1%;
+        gap: 30px;
     }
 
     .apresentaca__imagem {
