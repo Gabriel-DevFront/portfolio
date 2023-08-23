@@ -133,7 +133,6 @@ body {
 }
 
 .rodape__about {
-    justify-content: flex-start;
     padding: 2%;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
@@ -158,26 +157,34 @@ body {
 
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 5%;
+        justify-content: space-between;
+        padding: 2%;
+        gap: 10px;
+    }
+
+    .apresentacao__conteudo__titulo {
+        color: var(--cor-hover);
     }
 
     .apresentacao__conteudo {
         width: auto;
         padding: 1%;
-        gap: 30px;
+        gap: 20px;
     }
 
     .apresentacao__imagem {
         align-self: center;
-        width: 60%;
+        width: 100%;
     }
 
     .apresentacao__imagem__about {
+        padding: 1%;
         align-self: center;
-        width: 30%;
+        width: 80%;
     }
 
-    .rodape__about {
-        width: auto;
+    .rodape {
+        margin-top: 50%;
     }
+
 }
